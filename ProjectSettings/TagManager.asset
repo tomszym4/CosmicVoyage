@@ -1,0 +1,59 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - Enemy
+  - Projectile
+  - MissileTarget
+  - MissileReady
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - Projectiles
+  - Player
+  - Enemies
+  - EnemiesProjectiles
+  - ProjectileAnnihilator
+  - DeathZones
+  - Missile
+  - MissileTarget
+  - Upgrades
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: Enemy Projectiles
+    uniqueID: 556392733
+    locked: 0
+  - name: Projectiles
+    uniqueID: 1184901221
+    locked: 0
+  - name: Enemies
+    uniqueID: 1924877373
+    locked: 0
+  - name: Player
+    uniqueID: 4106251641
+    locked: 0

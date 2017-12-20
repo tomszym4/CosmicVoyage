@@ -1,0 +1,62 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1396664295553946}
+  m_IsPrefabParent: 1
+--- !u!1 &1396664295553946
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4245317793861690}
+  - component: {fileID: 114767846254805720}
+  m_Layer: 0
+  m_Name: Projectiles Manager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4245317793861690
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1396664295553946}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114767846254805720
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1396664295553946}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 723397b95f8307349a681a2ea67c3f24, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  projectiles: []
+  projectilePrefab: {fileID: 1985351067754788, guid: 2de275ba510432141b0c923c10d4ad9d,
+    type: 2}
+  enemyProjectiles: []
+  enemyProjectilePrefab: {fileID: 1212381108198952, guid: 77b722e65c448fc478415fad5b9bf69a,
+    type: 2}
+  simpleEnemies: []
+  simpleEnemyPrefab: {fileID: 1645764079405696, guid: 0b22c80a365480e40b22457f36f0fece,
+    type: 2}
